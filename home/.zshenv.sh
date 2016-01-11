@@ -54,7 +54,7 @@ dev="$HOME/Developer"
 br="$dev/brunch"
 ch="$dev/chaplinjs"
 com="$dev/com"
-pm="$dev/paulmillr"
+pm="$dev/saki007ster"
 as="$HOME/Library/Application Support"
 
 # Set the the list of directories that cd searches.
@@ -81,6 +81,8 @@ for path_file in /etc/manpaths.d/*(.N); do
 done
 unset path_file
 
+export NODE_PATH='/usr/local/lib/node_modules'
+
 # Set the list of directories that Zsh searches for programs.
 # export PYTHONPATH=/usr/local/lib/python2.7/site-packages
 path=(
@@ -88,6 +90,7 @@ path=(
   /usr/local/opt/ruby/bin
   /usr/local/lib/python2.7/site-packages
   /usr/local/share/npm/bin
+  /usr/local/lib
   /usr/{bin,sbin}
   /{bin,sbin}
   $path
@@ -107,7 +110,6 @@ if [[ -d "$TMPDIR" ]]; then
 fi
 
 
+
 BROWSER=''
 unset BROWSER
-
-export NODE_PATH='/usr/local/lib/node_modules'

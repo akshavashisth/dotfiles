@@ -27,7 +27,7 @@ alias -g l10='| tail -n 10'
 # Simple clear command.
 alias cl='clear'
 
-# Disable sertificate check for wget.
+# Disable certificate check for wget.
 alias wget='wget --no-check-certificate'
 
 # JSHint short-cut.
@@ -35,6 +35,9 @@ alias lint=jshint
 
 # Faster NPM for europeans.
 alias npme='npm --registry http://registry.npmjs.eu'
+
+#accressing drush 8 with drush8 alias
+alias drush8='~/drush8/vendor/bin/drush'
 
 # Some OS X-only stuff.
 if [[ "$OSTYPE" == darwin* ]]; then
@@ -401,3 +404,7 @@ function preview() {
   [[ -z "$item" ]] && item='.'
   open $1 -a 'Preview'
 }
+
+
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

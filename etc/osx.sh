@@ -154,10 +154,10 @@ sudo mdutil -E / > /dev/null
 # ========
 
 # Use a modified version of the Pro theme by default in Terminal.app
-# open "$pm/dotfiles/terminal/paulmillr.terminal"
+# open "$pm/dotfiles/terminal/saki007ster.terminal"
 # sleep 1 # Wait a bit to make sure the theme is loaded
-# defaults write com.apple.terminal 'Default Window Settings' -string 'paulmillr'
-# defaults write com.apple.terminal 'Startup Window Settings' -string 'paulmillr'
+# defaults write com.apple.terminal 'Default Window Settings' -string 'saki007ster'
+# defaults write com.apple.terminal 'Startup Window Settings' -string 'saki007ster'
 
 # Transmission
 # ============

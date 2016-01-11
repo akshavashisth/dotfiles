@@ -16,16 +16,14 @@
 # Usage:
 #
 #     git ghpull <original-user>/<original-repo> <topic-branch-name>
-#     git ghpull paulmillr/ostio add-ie11-support
+#     git ghpull saki007ster/ostio add-ie11-support
 #
 # Workflow:
 #
-#     git ghpull paulmillr/ostio add-ie11-support && $EDITOR .
+#     git ghpull saki007ster/ostio add-ie11-support && $EDITOR .
 #     # edit stuff
 #     git commit -m 'Add stuff.' && git push -u origin
 #
-# (c) 2012 Paul Miller (paulmillr.com).
-# The script can be redistributed under the MIT License.
 
 syntax="git ghpull <original-user>/<original-repo> <topic-branch-name>"
 err="Invalid syntax. Expected '$syntax'"
