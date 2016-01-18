@@ -1,8 +1,8 @@
 echo 'You might need to change your default shell to zsh: `chsh -s /bin/zsh` (or `sudo vim /etc/passwd`)'
 
-dir="$HOME/Developer/saki007ster"
+dir="$HOME/Developer/akshavashisth"
 mkdir -p $dir
 cd $dir
-git clone --recursive git://github.com/saki007ster/dotfiles.git
+git clone --recursive git@github.com:akshavashisth/dotfiles.git
 cd dotfiles
 sudo bash symlink-dotfiles.sh

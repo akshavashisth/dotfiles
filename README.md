@@ -4,7 +4,7 @@ Colourful & robust OS X configuration files and utilities.
 Installation is done with simple command set (see “building system from scratch” for setup of new system):
 
 ```
-curl --silent https://raw.githubusercontent.com/saki007ster/dotfiles/master/install.sh | sh
+curl --silent https://raw.githubusercontent.com/akshavashisth/dotfiles/master/install.sh | sh
 ```
 
 ## Features
@@ -54,7 +54,7 @@ Shell (zsh):
 
 * Install "Source Code Pro" font.
 * Install XCode & its Command Line Tools.
-* Change Terminal.app theme to `terminal/saki007ster.terminal`.
+* Change Terminal.app theme to `terminal/akshavashisth.terminal`.
 * Change default shell to ZSH: `chsh -s /bin/zsh`.
 * Insert proper hosts from `etc/hosts` to system’s `/etc/hosts`.
 * Create `~/Development/`
@@ -66,7 +66,7 @@ Shell (zsh):
 
 The MIT license.
 
-Copyright (c) 2013 Saket Kumar (http://saki007ster.github.io/)
+Copyright (c) 2013 Akshay Vashisth (http://akshavashisth.github.io/)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

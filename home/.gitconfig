@@ -1,9 +1,9 @@
 [user]
-	name = Saket Kumar
-	email = saki007ster@gmail.com
+	name = Akshay Vashisth
+	email = akshavashisth@gmail.com
 
 [github]
-  user = saki007ster
+  user = akshavashisth
 
 [alias]
   br = branch
@@ -24,17 +24,17 @@
   discard = checkout -- .
   rmtag = "!sh -c 'git tag -d $1; git push origin :refs/tags/$1'"
 
-  changelog = !sh "$HOME/Developer/saki007ster/dotfiles/git-extras/git-changelog.sh"
-  rstatus   = !zsh "$HOME/Developer/saki007ster/dotfiles/git-extras/git-rstatus.sh"
-  release   = !sh "$HOME/Developer/saki007ster/dotfiles/git-extras/git-release.sh"
-  setup     = !zsh "$HOME/Developer/saki007ster/dotfiles/git-extras/git-setup.sh"
-  summary   = !zsh "$HOME/Developer/saki007ster/dotfiles/git-extras/git-summary.sh"
-  delete-branch = !sh "$HOME/Developer/saki007ster/dotfiles/git-extras/git-delete-branch.sh"
+  changelog = !sh "$HOME/Developer/akshavashisth/dotfiles/git-extras/git-changelog.sh"
+  rstatus   = !zsh "$HOME/Developer/akshavashisth/dotfiles/git-extras/git-rstatus.sh"
+  release   = !sh "$HOME/Developer/akshavashisth/dotfiles/git-extras/git-release.sh"
+  setup     = !zsh "$HOME/Developer/akshavashisth/dotfiles/git-extras/git-setup.sh"
+  summary   = !zsh "$HOME/Developer/akshavashisth/dotfiles/git-extras/git-summary.sh"
+  delete-branch = !sh "$HOME/Developer/akshavashisth/dotfiles/git-extras/git-delete-branch.sh"
 
   pr = "!f() { git fetch -fu ${2:-origin} refs/pull/$1/head:pr/$1; } ; f"
 
-  ghfork = !sh "$HOME/Developer/saki007ster/dotfiles/git-extras/git-ghpull.sh"
-  cleanup = !ruby "$HOME/Developer/saki007ster/dotfiles/git-extras/git-cleanup.rb"
+  ghfork = !sh "$HOME/Developer/akshavashisth/dotfiles/git-extras/git-ghpull.sh"
+  cleanup = !ruby "$HOME/Developer/akshavashisth/dotfiles/git-extras/git-cleanup.rb"
 
 [push]
   default = simple
@@ -58,7 +58,7 @@
   abbrevCommit = true
 
 # URL shorthands
-# gh:saki007ster/dotfiles
+# gh:akshavashisth/dotfiles
 [url "git@github.com:"]
   insteadOf = "gh:"
   pushInsteadOf = "gh:"
@@ -75,6 +75,6 @@
 [init]
 	templatedir = ~/.git_template
 [ghi]
-	token = !security find-internet-password -a saki007ster -s github.com -l 'ghi token' -w
+	token = !security find-internet-password -a akshavashisth -s github.com -l 'ghi token' -w
 [pull]
 	rebase = true

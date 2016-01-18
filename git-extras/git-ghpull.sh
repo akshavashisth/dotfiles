@@ -16,11 +16,11 @@
 # Usage:
 #
 #     git ghpull <original-user>/<original-repo> <topic-branch-name>
-#     git ghpull saki007ster/ostio add-ie11-support
+#     git ghpull akshavashisth/ostio add-ie11-support
 #
 # Workflow:
 #
-#     git ghpull saki007ster/ostio add-ie11-support && $EDITOR .
+#     git ghpull akshavashisth/ostio add-ie11-support && $EDITOR .
 #     # edit stuff
 #     git commit -m 'Add stuff.' && git push -u origin
 #
